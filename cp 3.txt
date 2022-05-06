@@ -1,0 +1,36 @@
+#include <stdio.h>
+void add()
+{
+    int a=2;
+    int b=3;
+    int c= a+b;
+    printf("Sum of a and b is %d\n",c);
+}
+void main()
+{
+    add();
+}
+
+Assignment 3
+
+#include <stdio.h>
+int n;
+void add()
+{
+    int c= n*n;
+    printf("the square of number is %d\n",c);
+}
+void main()
+{
+    
+    printf("Enter the number \n");
+    scanf("%d",&n);
+    add();
+}
+
+
+output:
+Enter the number 
+12
+the square of number is 144
+
