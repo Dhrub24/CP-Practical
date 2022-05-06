@@ -1,0 +1,58 @@
+#include <stdio.h>
+
+
+int main()
+
+{
+ 
+   
+int a=2;
+    
+double const b=4;
+    
+float c=1.5;
+    
+char d='A';
+   
+ printf("The value of a is %d\n",a);
+   
+ printf("The value of b is %lf\n",b);
+   
+ printf("The value of c is %.2f\n",c);
+   
+ printf("The value of d is %c\n",d);
+   
+ return 0;
+
+}
+
+
+Assignment 2
+
+#include <stdio.h>
+int main()
+{
+    int p;
+    float r,t,I ;
+
+    printf("enter principle amount\n");
+   
+    scanf("%d",&p);
+    printf("now enter time \n");
+    scanf("%f",&t);
+    printf("enter rate\n");
+    scanf("%f",&r);
+    I=p*r*t/100;
+    printf("The simple interest is %f\n",I);
+    return 0;
+}
+
+output:
+enter principle amount:
+12
+enter time :
+12
+enter rate:
+1
+The simple interest is 1.44.
+
