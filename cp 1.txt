@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+
+int main()
+
+{
+  
+  
+printf("Talk To a Teacher\n");
+   
+ printf("Welcome\n");
+    
+return 0;
+
+
+}
+
+output:
+Talk To a Teacher
+Welcome
+
+Assignment 1
+
+#include <stdio.h>
+void main()
+{
+    printf("My name is Dhrub das\n");
+    printf("I live in maharashtra\n");
+} 
+
+output:
+My name is Dhrub das
+I Live in maharashtra
